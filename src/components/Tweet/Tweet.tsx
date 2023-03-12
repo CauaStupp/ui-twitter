@@ -17,11 +17,11 @@ const Tweet = (props: TweetProps) => {
 
   return (
     <Link to='/status' className='tweet'>
-      <img src="https://github.com/diego3g.png" alt="User photo" />
+      <img src="https://github.com/cauastupp.png" alt="User photo" />
       <div className='tweet-content'>
         <div className="tweet-content-header">
-          <strong>Diego Fernandes</strong>
-          <span>@dieegosf</span>
+          <strong>User</strong>
+          <span>@User_12039482</span>
         </div>
 
         <p>
