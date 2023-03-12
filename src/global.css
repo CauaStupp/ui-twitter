@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --twitter-blue: #1da1f2;
+}
+
+body {
+    color: #0f1419;
+    --webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button {
+    font: 400 1rem 'Roboto', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+}
+
+
+
+/* CONTENT */
+
+
+
+
+.content {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+
+.tweets {
+    border-left: 1px solid #ebeef0;
+    border-right: 1px solid #ebeef0;
+}
+
+
+
+@media (max-width: 780px) {
+    .content {
+        grid-template-columns: 80px 1fr;
+    }
+}
